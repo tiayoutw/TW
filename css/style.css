@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 
-a, a:visited, a:hover {
+a, a:hover {
    text-decoration: none;
    outline: 0;
    color: #3399cc;
@@ -24,6 +24,10 @@ a, a:visited, a:hover {
    -moz-transition: color .3s ease-in-out;
    -o-transition: color .3s ease-in-out;
    transition: color .3s ease-in-out;
+}
+
+a:visited {
+  color: #000;
 }
 
 h2 {
